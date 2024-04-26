@@ -27,4 +27,4 @@ let hourstoMoon=milestoMoon/shuttleSpeedMph
 let daystoMoon=hoursToMars/24
 
 // Print the results of the trip to the moon below
-console.log(nameofshuttle+ "will take"+ daystoMoon+ "to reach the Moon.");
+console.log(nameofshuttle+ " will take "+ daystoMoon+ "to reach the Moon.");
