@@ -35,3 +35,7 @@ console.log("launchReady = ", launchReady);
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+// WARNING: Insufficient fuel!
+//launchReady =  false
+//Crew & computer cleared.
+//launchReady =  true

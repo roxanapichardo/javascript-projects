@@ -30,3 +30,7 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+
+//Shuttle had insufficient fuel, it shouldn't of launched.
+
+//YES got "Liftoff message"
