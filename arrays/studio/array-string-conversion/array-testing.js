@@ -8,8 +8,11 @@ strings = [protoArray1, protoArray2, protoArray3, protoArray4];
 //2) 
 function reverseCommas() {
 	//TODO: 1. create and instantiate your variables.
-	let check;
-	let output;
+	const check = commaString;
+	let output; 
+	if (check.includes(",")) {
+		output = check.slipt(",").reverse().join(",");
+	}
 	//TODO: 2. write the code required for this step
 
 	//NOTE: For the code to run properly, you must return your output.  this needs to be the final line of code within the function's { }.
@@ -18,10 +21,12 @@ function reverseCommas() {
 
 //3)
 function semiDash() {
-	let check;
+	let check = strings; 
 	let output;
 //TODO: write the code required for this step
-
+if(check.includes(",")) {
+	output = check.slipt(",").sort().join()
+}
   
 	return output;
 }
