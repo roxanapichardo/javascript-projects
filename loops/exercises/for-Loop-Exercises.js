@@ -53,4 +53,6 @@ let array = [1, 5, 'LC101', 'blue', 42]
 
       
       console.log(oddArr); 
-      console.log(evenArr); 
+      console.log(evenArr);
+
+      

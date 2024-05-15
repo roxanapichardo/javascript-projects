@@ -12,4 +12,8 @@ for (let i = 0; i < phrase.length - 1; i = i + 3) {
    console.log(phrase[i]);
 }
 
+let phrases = "LaunchCode's LC101";
 
+for (let i = 0; i < phrases.length - 1; i = i + 3) {
+   console.log(phrases[i]);
+}
