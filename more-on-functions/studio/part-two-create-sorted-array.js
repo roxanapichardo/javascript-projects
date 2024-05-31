@@ -27,3 +27,20 @@ function findMinValue(arr){
 let nums1 = [5, 10, 2, 42];
 let nums2 = [-2, 0, -10, -44, 5, 3, 0, 3];
 let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
+
+function sortedNumbersArray(array) {
+let sortedArray = [];
+let newArray = array;
+let length = newArray.length;
+for(let index = 0; index <array.length; index ++){
+  let value = findMinValue(newArray);
+  sortedArray.push(value);
+  newArray.splice(newArray.indexOf(value,1);
+
+}
+return sortedArray;
+}
+console.log(sortNumbersArray(nums1)); // expect to be 2
+console.log(nums1); // Should stay the same
+console.log(sortNumbersArray(nums2)); // -44
+console.log(sortNumbersArrayWhileLoop(nums3)); // -3.3
